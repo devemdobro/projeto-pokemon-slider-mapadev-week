@@ -58,9 +58,16 @@ body {
     right: 20px;
 }
 
+.pokemon-slider nav{
+    overflow: hidden;
+    max-width: 1400px;
+    padding: 50px 0;
+}
+
 .pokemon-slider ul {
     display: flex;
     gap: 30px;
+    transition: 0.7s ease-in-out;    
 }
 
 
