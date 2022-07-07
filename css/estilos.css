@@ -59,49 +59,36 @@ body {
     right: 20px;
 }
 
-.pokemon-slider nav{
+.pokemon-slider nav{    
+    padding: 50px;
+    height: 530px;
+    width: 410px;
     overflow: hidden;
-    max-width: 1400px;
-    padding: 50px 0;
 }
 
 .pokemon-slider ul {
-    display: flex;
+    display: inline-block;
     gap: 30px;
-    transition: 0.7s ease-in-out;    
+    transition: 0.7s ease-in-out;  
+    position: relative;  
 }
 
 .pokemon-slider .cartao {
     display: flex;
+    opacity: 0;
     flex-direction: column;
-    width: 250px;
+    width: 310px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
     overflow: hidden;
+    position: absolute;
+    transition: opacity 0.3s ease-in-out;
 }
 
-@media (max-width: 930px) {
-    .pokemon-slider nav{        
-        max-width: 283px;
-        padding: 0;   
-    }
-    
-    .pokemon-slider ul{
-        display: block;
-        width: 9999px;
-    }
-    
-        .pokemon-slider .cartao {
-            display: inline-block;  
-            margin: 20px;
-        }   
-    }
-
-.pokemon-slider .cartao.selecionado {
-    transform: scale(1.1);
+.pokemon-slider .cartao.selecionado {    
+    opacity: 1;
 }
-
 
 .pokemon-slider .cartao img {
     padding: 20px;

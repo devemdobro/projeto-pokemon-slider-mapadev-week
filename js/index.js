@@ -20,7 +20,6 @@ setaAvancar.addEventListener("click", function () {
 
   esconderImagens();
   selecionarImagem();
-  slide("avancar");
 });
 
 setaVoltar.addEventListener("click", function () {
@@ -30,30 +29,4 @@ setaVoltar.addEventListener("click", function () {
 
   esconderImagens();
   selecionarImagem();
-  slide("voltar");
 });
-
-let scroll = 0;
-function slide(direcao) {
-  console.log(imagemAtual)
-  console.log('imagens.length :>> ', imagens.length);
-  if(imagemAtual === 0) return;
-  if (imagemAtual === imagens.length - 2) {
-    return;
-  }
-  const lista = document.getElementById("pokemons");
-
-  const cartao = imagens[0];
-  var style = window.getComputedStyle(cartao);
-  let larguraCartao = cartao.offsetWidth;    
-
-  const larguraTotal = larguraCartao + (parseInt(style.margin) * 2) + 7;  
-
-  if (direcao === "avancar") {
-    scroll = scroll - larguraTotal;
-  } else if (direcao === "voltar") {
-    scroll = scroll + larguraTotal;
-  }
-
-  lista.style.transform = `translateX(${scroll}px)`;
-}
