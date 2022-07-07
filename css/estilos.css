@@ -8,7 +8,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;    
-    justify-content: center;    
+    justify-content: center;       
 }
 
 .cabecalho{
@@ -35,9 +35,8 @@ body {
     min-height: 700px;
 }
 
-@media (max-width: 500px){
-    .pokemon-slider {
-        min-height: 400px;
+@media (max-width: 900px){
+    .pokemon-slider {        
         justify-content: space-between;
         padding: 0 5px;
     }
@@ -90,6 +89,9 @@ body {
     text-align: center;
     overflow: hidden;
     transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    max-width: 310px;
+    background-color: white;
 }
 
 .pokemon-slider .cartao.selecionado {    
@@ -105,16 +107,34 @@ body {
     background-color: #8351FE;        
     border-top: 10px solid #723EF8;
     padding: 10px;
+    display: flex;    
+    align-items: center;
+    height: 55px;
+    gap: 10px;
+    justify-content: space-between;    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.pokemon-slider .cartao .informacoes p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #8fe25c;
+}
+
+.pokemon-slider .cartao .informacoes p img{
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 50px;
+    padding: 5px;
 }
 
 .pokemon-slider .cartao .informacoes .nome {
     color: white;    
     margin-bottom: 5px;
-}
-
-.pokemon-slider .cartao .informacoes .tipo {    
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
 }
 
 .fundo {
@@ -126,3 +146,51 @@ body {
 }
 
 /* https://pokemonnewscenter.com.br/pokemon-disponiveis-unite/ */
+
+.pokebola{
+    width: 35px;
+    height: 35px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tipo-carta{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    gap: 5px;
+}
+
+.tipo-carta span{
+    background-color: aliceblue;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.habilidades{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.habilidades h2{
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.habilidades p{
+    width: 200px;
+    font-size: 12px;
+    width: 250px;
+    font-size: 12px;
+    text-align: left;    
+    padding: 5px;
+    width: 100%;
+}
