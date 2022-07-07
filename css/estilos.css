@@ -16,6 +16,7 @@ body {
 
 .cabecalho .titulo {
     color: black;
+    text-align: center;
 }
 
 .cabecalho .titulo span {
@@ -29,6 +30,13 @@ body {
     align-items: center;
     gap: 20px;
     padding: 0 15px;
+    min-height: 700px;
+}
+
+@media (max-width: 500px){
+    .pokemon-slider {
+        min-height: 400px;
+    }
 }
 
 .pokemon-slider .seta {
@@ -59,11 +67,32 @@ body {
     right: 20px;
 }
 
+.pokemon-slider ul{
+    list-style: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-slider .cartao {
+    position: absolute;
+    opacity: 0;    
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* 
 .pokemon-slider nav{    
     padding: 50px;
-    height: 530px;
-    width: 410px;
+    height: 530px;    
     overflow: hidden;
+    width: 30%;
 }
 
 .pokemon-slider ul {
@@ -71,20 +100,21 @@ body {
     gap: 30px;
     transition: 0.7s ease-in-out;  
     position: relative;  
+    width: 100%;
 }
 
 .pokemon-slider .cartao {
     display: flex;
     opacity: 0;
     flex-direction: column;
-    width: 310px;
+    
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
     overflow: hidden;
     position: absolute;
     transition: opacity 0.3s ease-in-out;
-}
+} */
 
 .pokemon-slider .cartao.selecionado {    
     opacity: 1;
