@@ -9,10 +9,10 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    background-color: #860A9F;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23860A9F' width='11' height='11'/%3E%3Crect fill='%23850b9e' x='10' width='11' height='11'/%3E%3Crect fill='%23840b9d' y='10' width='11' height='11'/%3E%3Crect fill='%23830c9b' x='20' width='11' height='11'/%3E%3Crect fill='%23820c9a' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23810d99' y='20' width='11' height='11'/%3E%3Crect fill='%23800d98' x='30' width='11' height='11'/%3E%3Crect fill='%237f0d97' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%237e0e95' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%237e0e94' y='30' width='11' height='11'/%3E%3Crect fill='%237d0f93' x='40' width='11' height='11'/%3E%3Crect fill='%237c0f92' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%237b0f91' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%237a108f' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2379108e' y='40' width='11' height='11'/%3E%3Crect fill='%2378108d' x='50' width='11' height='11'/%3E%3Crect fill='%2377118c' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%2376118b' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23751189' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23741188' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23731287' y='50' width='11' height='11'/%3E%3Crect fill='%23721286' x='60' width='11' height='11'/%3E%3Crect fill='%23711285' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23711284' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23701382' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%236f1381' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%236e1380' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%236d137f' x='70' width='11' height='11'/%3E%3Crect fill='%236c137e' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%236b147d' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%236a147c' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%2369147a' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23681479' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23671478' x='80' width='11' height='11'/%3E%3Crect fill='%23661477' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23661476' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23651575' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23641573' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23631572' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23621571' x='90' width='11' height='11'/%3E%3Crect fill='%23611570' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2360156f' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%235f156e' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%235e156d' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%235d156c' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%235d156a' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%235c1669' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%235b1668' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%235a1667' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23591666' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23581665' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23571664' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23561663' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23551662' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23541660' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%2354165f' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2353165e' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%2352165d' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%2351165c' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%2350165B' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
+    background-color: #787171;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23787171' width='11' height='11'/%3E%3Crect fill='%23797272' x='10' width='11' height='11'/%3E%3Crect fill='%237a7373' y='10' width='11' height='11'/%3E%3Crect fill='%237b7474' x='20' width='11' height='11'/%3E%3Crect fill='%237c7575' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%237d7676' y='20' width='11' height='11'/%3E%3Crect fill='%237e7777' x='30' width='11' height='11'/%3E%3Crect fill='%237f7878' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23807979' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23817b7b' y='30' width='11' height='11'/%3E%3Crect fill='%23827c7c' x='40' width='11' height='11'/%3E%3Crect fill='%23837d7d' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23837e7e' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23847f7f' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23858080' y='40' width='11' height='11'/%3E%3Crect fill='%23868181' x='50' width='11' height='11'/%3E%3Crect fill='%23878282' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23888383' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23898484' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%238a8585' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%238b8686' y='50' width='11' height='11'/%3E%3Crect fill='%238c8888' x='60' width='11' height='11'/%3E%3Crect fill='%238d8989' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%238e8a8a' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%238f8b8b' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23908c8c' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23918d8d' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23928e8e' x='70' width='11' height='11'/%3E%3Crect fill='%23938f8f' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23949090' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23959191' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23969292' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23979494' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23989595' x='80' width='11' height='11'/%3E%3Crect fill='%23999696' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%239a9797' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%239b9898' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%239c9999' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%239d9a9a' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%239e9b9b' x='90' width='11' height='11'/%3E%3Crect fill='%239f9c9c' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23a09e9e' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23a19f9f' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23a2a0a0' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23a3a1a1' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23a4a2a2' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23a5a3a3' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23a6a4a4' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23a7a5a5' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23a8a7a7' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23a9a8a8' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23aaa9a9' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23abaaaa' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23acabab' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23adacac' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23aeadad' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23afafaf' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23b0b0b0' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23b1b1b1' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23B2B2B2' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .cabecalho {
@@ -23,10 +23,14 @@ background-size: cover;
 .cabecalho .titulo {
     color: #f1ecff;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.cabecalho .titulo span {
-    color: #723EF8;
+.cabecalho .titulo .pokebola {
+    width: 20px;
+    height: 20px;
 }
 
 .pokemon-slider {
@@ -49,6 +53,7 @@ background-size: cover;
     align-items: center;
     justify-content: center;
     transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
 }
 
 .pokemon-slider .btn-seta .imagem-seta {
@@ -74,7 +79,7 @@ background-size: cover;
     position: absolute;
     opacity: 0;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
     text-align: center;
     overflow: hidden;
     transition: opacity 0.3s ease-in-out;
@@ -93,7 +98,7 @@ background-size: cover;
 }
 
 .pokemon-slider .cartao .informacoes {
-    background-color: rgb(131, 81, 254, 0.7);    
+    background-color: rgba(179, 177, 185, 0.7);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -107,7 +112,7 @@ background-size: cover;
 .pokemon-slider .cartao .informacoes .vida {
     display: flex;
     align-items: center;
-    gap: 5px;    
+    gap: 5px;
     color: white;
     background-color: #75c543;
     border-radius: 5px;
@@ -124,16 +129,14 @@ background-size: cover;
 .pokemon-slider .cartao .descricao {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    background: rgba(113, 53, 162, 0.7)
+    flex-direction: column;    
+    background: rgba(216, 216, 216, 0.8);
 }
 
 .pokemon-slider .cartao .descricao .titulo {
     background-color: aliceblue;
     padding: 5px;
-    font-size: 12px;
-    border-radius: 5px;
+    font-size: 12px;    
     text-align: left;
     text-transform: uppercase;
 }
@@ -142,11 +145,11 @@ background-size: cover;
     width: 200px;
     font-size: 12px;
     width: 250px;
-    font-size: 12px;
+    font-size: 0.8rem;
     text-align: left;
     padding: 5px;
     width: 100%;
-    color: white;
+    text-align: justify;    
 }
 
 /* https://pokemonnewscenter.com.br/pokemon-disponiveis-unite/ */
@@ -162,9 +165,9 @@ background-size: cover;
 
     .pokemon-slider .cartao {
         width: 70%;
-    }    
+    }
 
-    .pokemon-slider .btn-seta{
+    .pokemon-slider .btn-seta {
         width: 3rem;
         height: 3rem;
     }
