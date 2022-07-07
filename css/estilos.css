@@ -93,8 +93,7 @@ background-size: cover;
 }
 
 .pokemon-slider .cartao .informacoes {
-    background-color: #8351FE;
-    border-top: 10px solid #723EF8;
+    background-color: rgb(131, 81, 254, 0.7);    
     padding: 10px;
     display: flex;
     align-items: center;
