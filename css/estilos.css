@@ -4,7 +4,7 @@ body {
     font-family: 'Outfit', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +83,7 @@ body {
     text-align: center;
     overflow: hidden;
     transition: opacity 0.3s ease-in-out;
-    padding: 10px;
+    padding: 15px;
     max-width: 310px;
     background: url(../imagens/bg.jpg) no-repeat;
 }
