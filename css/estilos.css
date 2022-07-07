@@ -2,22 +2,26 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-image: url(../imagens/fundo4.jpg);
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
-    flex-direction: column;    
-    justify-content: center;       
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #860A9F;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23860A9F' width='11' height='11'/%3E%3Crect fill='%23850b9e' x='10' width='11' height='11'/%3E%3Crect fill='%23840b9d' y='10' width='11' height='11'/%3E%3Crect fill='%23830c9b' x='20' width='11' height='11'/%3E%3Crect fill='%23820c9a' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23810d99' y='20' width='11' height='11'/%3E%3Crect fill='%23800d98' x='30' width='11' height='11'/%3E%3Crect fill='%237f0d97' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%237e0e95' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%237e0e94' y='30' width='11' height='11'/%3E%3Crect fill='%237d0f93' x='40' width='11' height='11'/%3E%3Crect fill='%237c0f92' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%237b0f91' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%237a108f' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2379108e' y='40' width='11' height='11'/%3E%3Crect fill='%2378108d' x='50' width='11' height='11'/%3E%3Crect fill='%2377118c' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%2376118b' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23751189' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23741188' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23731287' y='50' width='11' height='11'/%3E%3Crect fill='%23721286' x='60' width='11' height='11'/%3E%3Crect fill='%23711285' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23711284' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23701382' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%236f1381' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%236e1380' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%236d137f' x='70' width='11' height='11'/%3E%3Crect fill='%236c137e' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%236b147d' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%236a147c' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%2369147a' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23681479' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23671478' x='80' width='11' height='11'/%3E%3Crect fill='%23661477' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23661476' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23651575' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23641573' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23631572' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23621571' x='90' width='11' height='11'/%3E%3Crect fill='%23611570' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2360156f' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%235f156e' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%235e156d' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%235d156c' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%235d156a' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%235c1669' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%235b1668' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%235a1667' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23591666' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23581665' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23571664' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23561663' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23551662' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23541660' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%2354165f' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2353165e' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%2352165d' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%2351165c' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%2350165B' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     justify-content: center;
 }
 
 .cabecalho .titulo {
-    color: black;
+    color: #f1ecff;
     text-align: center;
 }
 
@@ -33,21 +37,6 @@ body {
     gap: 20px;
     padding: 0 35px;
     min-height: 700px;
-}
-
-@media (max-width: 900px){
-    .pokemon-slider {        
-        justify-content: space-between;
-        padding: 0 5px;
-    }
-
-    .pokemon-slider .cartao{
-        width: 50%;
-    }
-
-    .cabecalho .titulo {
-        width: 50%;
-    }
 }
 
 .pokemon-slider .btn-seta {
@@ -74,8 +63,8 @@ body {
     transform: rotateY(180deg);
 }
 
-.pokemon-slider .lista-pokemons{
-    list-style: none;        
+.pokemon-slider .lista-pokemons {
+    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +72,7 @@ body {
 
 .pokemon-slider .cartao {
     position: absolute;
-    opacity: 0;    
+    opacity: 0;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
@@ -91,10 +80,10 @@ body {
     transition: opacity 0.3s ease-in-out;
     padding: 10px;
     max-width: 310px;
-    background-color: white;
+    background: url(../imagens/bg.jpg) no-repeat;
 }
 
-.pokemon-slider .cartao.selecionado {    
+.pokemon-slider .cartao.selecionado {
     opacity: 1;
 }
 
@@ -104,93 +93,80 @@ body {
 }
 
 .pokemon-slider .cartao .informacoes {
-    background-color: #8351FE;        
+    background-color: #8351FE;
     border-top: 10px solid #723EF8;
     padding: 10px;
-    display: flex;    
+    display: flex;
     align-items: center;
     height: 55px;
     gap: 10px;
-    justify-content: space-between;    
+    justify-content: space-between;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-.pokemon-slider .cartao .informacoes p{
+.pokemon-slider .cartao .informacoes .vida {
     display: flex;
     align-items: center;
-    gap: 5px;
-    color: #8fe25c;
-}
-
-.pokemon-slider .cartao .informacoes p img{
-    width: 30px;
-    height: 30px;
-    background-color: gold;
-    border-radius: 50px;
-    padding: 5px;
+    gap: 5px;    
+    color: white;
+    background-color: #75c543;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: bold;
 }
 
 .pokemon-slider .cartao .informacoes .nome {
-    color: white;    
+    color: white;
     margin-bottom: 5px;
     font-size: 1.5em;
 }
 
-.fundo {
-    background-color: #ffffff;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='400' cy='400' r='50%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%230EF'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='400' cy='400' r='70%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%230FF'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='800'/%3E%3Cg fill-opacity='.8'%3E%3Cpath fill='url(%23b)' d='M998.7 439.2c1.7-26.5 1.7-52.7 0.1-78.5L401 399.9c0 0 0-0.1 0-0.1l587.6-116.9c-5.1-25.9-11.9-51.2-20.3-75.8L400.9 399.7c0 0 0-0.1 0-0.1l537.3-265c-11.6-23.5-24.8-46.2-39.3-67.9L400.8 399.5c0 0 0-0.1-0.1-0.1l450.4-395c-17.3-19.7-35.8-38.2-55.5-55.5l-395 450.4c0 0-0.1 0-0.1-0.1L733.4-99c-21.7-14.5-44.4-27.6-68-39.3l-265 537.4c0 0-0.1 0-0.1 0l192.6-567.4c-24.6-8.3-49.9-15.1-75.8-20.2L400.2 399c0 0-0.1 0-0.1 0l39.2-597.7c-26.5-1.7-52.7-1.7-78.5-0.1L399.9 399c0 0-0.1 0-0.1 0L282.9-188.6c-25.9 5.1-51.2 11.9-75.8 20.3l192.6 567.4c0 0-0.1 0-0.1 0l-265-537.3c-23.5 11.6-46.2 24.8-67.9 39.3l332.8 498.1c0 0-0.1 0-0.1 0.1L4.4-51.1C-15.3-33.9-33.8-15.3-51.1 4.4l450.4 395c0 0 0 0.1-0.1 0.1L-99 66.6c-14.5 21.7-27.6 44.4-39.3 68l537.4 265c0 0 0 0.1 0 0.1l-567.4-192.6c-8.3 24.6-15.1 49.9-20.2 75.8L399 399.8c0 0 0 0.1 0 0.1l-597.7-39.2c-1.7 26.5-1.7 52.7-0.1 78.5L399 400.1c0 0 0 0.1 0 0.1l-587.6 116.9c5.1 25.9 11.9 51.2 20.3 75.8l567.4-192.6c0 0 0 0.1 0 0.1l-537.3 265c11.6 23.5 24.8 46.2 39.3 67.9l498.1-332.8c0 0 0 0.1 0.1 0.1l-450.4 395c17.3 19.7 35.8 38.2 55.5 55.5l395-450.4c0 0 0.1 0 0.1 0.1L66.6 899c21.7 14.5 44.4 27.6 68 39.3l265-537.4c0 0 0.1 0 0.1 0L207.1 968.3c24.6 8.3 49.9 15.1 75.8 20.2L399.8 401c0 0 0.1 0 0.1 0l-39.2 597.7c26.5 1.7 52.7 1.7 78.5 0.1L400.1 401c0 0 0.1 0 0.1 0l116.9 587.6c25.9-5.1 51.2-11.9 75.8-20.3L400.3 400.9c0 0 0.1 0 0.1 0l265 537.3c23.5-11.6 46.2-24.8 67.9-39.3L400.5 400.8c0 0 0.1 0 0.1-0.1l395 450.4c19.7-17.3 38.2-35.8 55.5-55.5l-450.4-395c0 0 0-0.1 0.1-0.1L899 733.4c14.5-21.7 27.6-44.4 39.3-68l-537.4-265c0 0 0-0.1 0-0.1l567.4 192.6c8.3-24.6 15.1-49.9 20.2-75.8L401 400.2c0 0 0-0.1 0-0.1L998.7 439.2z'/%3E%3C/g%3E%3C/svg%3E");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-/* https://pokemonnewscenter.com.br/pokemon-disponiveis-unite/ */
-
-.pokebola{
-    width: 35px;
-    height: 35px;
-    background-color: aliceblue;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.tipo-carta{
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
-    gap: 5px;
-}
-
-.tipo-carta span{
-    background-color: aliceblue;
-    padding: 2px;
-    border-radius: 5px;
-    font-size: 11px;
-    text-transform: uppercase;
-}
-
-.habilidades{
+.pokemon-slider .cartao .descricao {
     width: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    background: rgba(113, 53, 162, 0.7)
 }
 
-.habilidades h2{
+.pokemon-slider .cartao .descricao .titulo {
     background-color: aliceblue;
     padding: 5px;
     font-size: 12px;
     border-radius: 5px;
     text-align: left;
+    text-transform: uppercase;
 }
 
-.habilidades p{
+.pokemon-slider .cartao .descricao .texto {
     width: 200px;
     font-size: 12px;
     width: 250px;
     font-size: 12px;
-    text-align: left;    
+    text-align: left;
     padding: 5px;
     width: 100%;
+    color: white;
+}
+
+/* https://pokemonnewscenter.com.br/pokemon-disponiveis-unite/ */
+
+
+
+
+@media (max-width: 900px) {
+    .pokemon-slider {
+        justify-content: space-between;
+        padding: 0 5px;
+    }
+
+    .pokemon-slider .cartao {
+        width: 70%;
+    }    
+
+    .pokemon-slider .btn-seta{
+        width: 3rem;
+        height: 3rem;
+    }
 }
