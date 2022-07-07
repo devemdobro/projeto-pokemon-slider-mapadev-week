@@ -1,7 +1,7 @@
 const imagens = document.querySelectorAll(".cartao");
 const setaVoltar = document.getElementById("btn-voltar");
 const setaAvancar = document.getElementById("btn-avancar");
-var imagemAtual = 2;
+var imagemAtual = 0;
 
 function esconderImagens() {
   imagens.forEach((imagem) => {
@@ -33,15 +33,26 @@ setaVoltar.addEventListener("click", function () {
   slide("voltar");
 });
 
+let scroll = 0;
 function slide(direcao) {
+  console.log(imagemAtual)
+  console.log('imagens.length :>> ', imagens.length);
+  if(imagemAtual === 0) return;
+  if (imagemAtual === imagens.length - 2) {
+    return;
+  }
   const lista = document.getElementById("pokemons");
-  let larguraCartao = imagens[0].offsetWidth - 20;
-  let scroll = 0;
+
+  const cartao = imagens[0];
+  var style = window.getComputedStyle(cartao);
+  let larguraCartao = cartao.offsetWidth;    
+
+  const larguraTotal = larguraCartao + (parseInt(style.margin) * 2) + 7;  
 
   if (direcao === "avancar") {
-    scroll = scroll - larguraCartao;
-  } else if(direcao === 'voltar') {
-    scroll = scroll + larguraCartao;
+    scroll = scroll - larguraTotal;
+  } else if (direcao === "voltar") {
+    scroll = scroll + larguraTotal;
   }
 
   lista.style.transform = `translateX(${scroll}px)`;
