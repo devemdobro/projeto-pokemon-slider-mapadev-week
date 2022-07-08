@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
-
 body {
     font-family: 'Outfit', sans-serif;
-    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    background-image: url(../imagens/fundo5.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: #1a1a1a; */
-    /* background-color: #DADFE8; */
-    background-image: url(../imagens/fundo5.png);
 }
 
 .cabecalho {
@@ -56,7 +51,7 @@ body {
     justify-content: center;
     transition: background-color 0.2s ease-in-out;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px; */
-    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    box-shadow: rgba(71, 71, 106, 0.2) 0px 7px 29px 0px;
 }
 
 .pokemon-slider .btn-seta .imagem-seta {
@@ -82,13 +77,23 @@ body {
     position: absolute;
     opacity: 0;
     border-radius: 10px;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px; */
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
     text-align: center;
     overflow: hidden;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
     padding: 15px;
     max-width: 310px;
+}
+
+.fundo1 {
+    background: url(../imagens/fundo-card-8.jpg) no-repeat;
+}
+
+.fundo2 {
+    background: url(../imagens/fundo-card-7.jpg) no-repeat;
+}
+
+.fundo3 {
     background: url(../imagens/fundo-card-6.jpg) no-repeat;
 }
 
@@ -127,7 +132,6 @@ body {
 }
 
 .pokemon-slider .cartao .descricao {
-    /* background: rgba(216, 216, 216, 0.8);     */
     width: 100%;
     display: flex;
     flex-direction: column;
