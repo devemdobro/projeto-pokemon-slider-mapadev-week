@@ -81,7 +81,7 @@ body {
     transition: opacity 0.3s ease-in-out;
     padding: 15px;
     max-width: 310px;
-    background: url(../imagens/bg.jpg) no-repeat;
+    background: url(../imagens/fundo-card-6.jpg) no-repeat;
 }
 
 .pokemon-slider .cartao.selecionado {
@@ -133,10 +133,9 @@ body {
 .pokemon-slider .cartao .descricao .titulo {
     background-color: #333333;
     color: white;
-    padding: 10px;
-    font-size: 14px;    
+    padding: 12px;
+    font-size: 15px;    
     text-align: left;
-    text-transform: uppercase;
 }
 
 .pokemon-slider .cartao .descricao .texto {
