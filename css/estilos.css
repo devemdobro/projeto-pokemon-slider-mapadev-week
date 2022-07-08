@@ -8,11 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    background-color: #1C1C1C;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%231C1C1C' width='11' height='11'/%3E%3Crect fill='%231d1d1d' x='10' width='11' height='11'/%3E%3Crect fill='%231d1d1d' y='10' width='11' height='11'/%3E%3Crect fill='%231e1e1e' x='20' width='11' height='11'/%3E%3Crect fill='%231e1e1e' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%231f1f1f' y='20' width='11' height='11'/%3E%3Crect fill='%231f1f1f' x='30' width='11' height='11'/%3E%3Crect fill='%23202020' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23202020' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23212121' y='30' width='11' height='11'/%3E%3Crect fill='%23222222' x='40' width='11' height='11'/%3E%3Crect fill='%23222222' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23232323' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23232323' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23242424' y='40' width='11' height='11'/%3E%3Crect fill='%23242424' x='50' width='11' height='11'/%3E%3Crect fill='%23252525' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23262626' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23262626' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23272727' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23272727' y='50' width='11' height='11'/%3E%3Crect fill='%23282828' x='60' width='11' height='11'/%3E%3Crect fill='%23292929' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23292929' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%232a2a2a' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%232a2a2a' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%232b2b2b' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%232b2b2b' x='70' width='11' height='11'/%3E%3Crect fill='%232c2c2c' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%232d2d2d' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%232d2d2d' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%232e2e2e' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%232e2e2e' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%232f2f2f' x='80' width='11' height='11'/%3E%3Crect fill='%23303030' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23303030' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23313131' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23313131' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23323232' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23333333' x='90' width='11' height='11'/%3E%3Crect fill='%23333333' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23343434' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23343434' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23353535' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23363636' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23363636' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23373737' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23383838' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23383838' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23393939' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23393939' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%233a3a3a' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%233b3b3b' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%233b3b3b' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%233c3c3c' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%233d3d3d' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%233d3d3d' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%233e3e3e' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%233e3e3e' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%233F3F3F' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
+    background-color: #1a1a1a;
 }
 
 .cabecalho {
@@ -105,36 +101,40 @@ background-size: cover;
     height: 55px;
     gap: 10px;
     justify-content: space-between;    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .pokemon-slider .cartao .informacoes .vida {
     display: flex;
     align-items: center;
-    gap: 5px;
     color: white;
-    background-color: #75c543;
-    border-radius: 5px;
-    padding: 6px;
-    font-weight: bold;
+    background-color: #333333;
+    /* background-color: #75c543; */
+    border-radius: 20px;
+    padding: 6px 10px;
 }
 
 .pokemon-slider .cartao .informacoes .nome {
     color: white;
-    margin-bottom: 5px;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .pokemon-slider .cartao .descricao {
+    /* background: rgba(216, 216, 216, 0.8);     */
     width: 100%;
     display: flex;
-    flex-direction: column;    
-    background: rgba(216, 216, 216, 0.8);    
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .pokemon-slider .cartao .descricao .titulo {
-    background-color: aliceblue;
-    padding: 5px;
-    font-size: 12px;    
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    font-size: 14px;    
     text-align: left;
     text-transform: uppercase;
 }
@@ -145,10 +145,9 @@ background-size: cover;
     width: 250px;
     font-size: 0.8rem;
     text-align: left;
-    padding: 5px;
+    padding: 12px;
     width: 100%;
-    text-align: justify;  
-    padding: 10px;  
+    text-align: justify;
 }
 
 /* https://pokemonnewscenter.com.br/pokemon-disponiveis-unite/ */
