@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
-
 body {
     font-family: 'Outfit', sans-serif;
-    background-image: url(../imagens/fundo5.png);
+    background-image: url(../imagens/fundo-site.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -17,8 +15,7 @@ body {
 }
 
 .cabecalho .titulo {
-    color: #f1ecff;
-    
+    color: #f1ecff;    
     text-align: center;
     display: flex;
     align-items: center;
@@ -49,8 +46,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.2s ease-in-out;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px; */
+    transition: background-color 0.2s ease-in-out;    
     box-shadow: rgba(71, 71, 106, 0.2) 0px 7px 29px 0px;
 }
 
@@ -83,6 +79,7 @@ body {
     transition: opacity 0.4s ease-in-out;
     padding: 15px;
     max-width: 310px;
+    min-height: 545px;
 }
 
 .fundo1 {
@@ -90,7 +87,7 @@ body {
 }
 
 .fundo2 {
-    background: url(../imagens/fundo-card-9.jpg) no-repeat;
+    background: url(../imagens/fundo-card-7.jpg) no-repeat;
 }
 
 .fundo3 {
