@@ -12,16 +12,15 @@ body {
 .cabecalho {
     display: flex;
     justify-content: center;
-}
-
-.cabecalho .titulo {
-    color: #f1ecff;        
-    display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.cabecalho .titulo .pokebola {
+.cabecalho .titulo {
+    color: #f1ecff;        
+}
+
+.cabecalho .pokebola {
     width: 25px;
     height: 25px;
 }
@@ -30,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    /* gap: 20px; */
     padding: 0 35px;
     min-height: 700px;
 }
@@ -76,19 +75,19 @@ body {
     padding: 15px;
     max-width: 310px;
     min-height: 545px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .fundo-1 {
-    background: url(../imagens/fundo-card-8.jpg) no-repeat;
+    background: url(../imagens/fundo-card-1.jpg) no-repeat;
 }
 
 .fundo-2 {
-    background: url(../imagens/fundo-card-7.jpg) no-repeat;
+    background: url(../imagens/fundo-card-2.jpg) no-repeat;
 }
 
 .fundo-3 {
-    background: url(../imagens/fundo-card-6.jpg) no-repeat;
+    background: url(../imagens/fundo-card-3.jpg) no-repeat;
 }
 
 .cartao.selecionado {
