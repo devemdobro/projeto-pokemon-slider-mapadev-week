@@ -1,8 +1,8 @@
 body {
     font-family: 'Outfit', sans-serif;
-    background-image: url(../imagens/fundo-site.png);
+	background-image: url(../imagens/fundo-site.png);
+    background-repeat: no-repeat;	
     background-size: cover;
-    background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -25,57 +25,53 @@ body {
     height: 25px;
 }
 
-.pokemon-slider {    
+.pokemon-slider { 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* gap: 20px; */
-    padding: 0 35px;
     min-height: 700px;
 }
 
+.cartao {
+    position: absolute;
+    max-width: 310px;
+    /* min-height: 545px; */
+    padding: 15px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.cartao.selecionado {
+    opacity: 1;
+    z-index: 1;
+}
+
 .btn-seta {
+    background-color: white;
     width: 70px;
     height: 70px;
-    background-color: white;
-    border-radius: 50px;
-    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50px;
+    box-shadow: rgba(71, 71, 106, 0.2) 0px 7px 29px 0px;  
     transition: background-color 0.2s ease-in-out;    
-    box-shadow: rgba(71, 71, 106, 0.2) 0px 7px 29px 0px;
-}
-
-.btn-seta .imagem-seta {
-    width: 80%;
-}
-
-.btn-seta:hover {
-    background-color: #8351FE;
 }
 
 .btn-seta.btn-voltar {
     transform: rotateY(180deg);
 }
 
+.btn-seta:hover {
+    background-color: #8351FE;
+}
+
 .lista-pokemons {
-    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.cartao {
-    position: absolute;
-    opacity: 0;
-    border-radius: 10px;
-    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;        
-    transition: opacity 0.4s ease-in-out;
-    padding: 15px;
-    max-width: 310px;
-    min-height: 545px;
-    /* z-index: -1; */
 }
 
 .fundo-1 {
@@ -90,28 +86,19 @@ body {
     background: url(../imagens/fundo-card-3.jpg) no-repeat;
 }
 
-.cartao.selecionado {
-    opacity: 1;
-}
-
-.cartao .imagem-pokemon {
-    padding: 20px;
-    width: 100%;
-}
-
 .cartao .informacoes {
     background-color: rgba(179, 177, 185, 0.7);
-    padding: 10px;
     display: flex;
     align-items: center;    
     justify-content: space-between;    
+    padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .cartao .informacoes .vida {    
-    color: white;
     background-color: #333333;    
+    color: white;
     border-radius: 20px;
     padding: 6px 10px;
 }
@@ -120,6 +107,16 @@ body {
     color: white;
     font-size: 1.4em;
 }
+
+.cartao .container-imagem {
+    text-align: center;
+}
+
+.cartao .imagem-pokemon {
+    padding: 20px;
+    max-height: 260px;
+}
+
 
 .cartao .descricao {        
     background: rgba(255, 255, 255, 0.8);
@@ -138,6 +135,8 @@ body {
     font-size: 0.8rem;    
     padding: 12px;    
     text-align: justify;
+    max-height: 120px;
+    overflow-y: auto;
 }
 
 @media (max-width: 900px) {
@@ -148,11 +147,12 @@ body {
 
     .pokemon-slider {
         justify-content: space-between;
-        padding: 0px 5px;
+        padding: 0px 15px;
     }
 
     .cartao {
-        width: 70%;
+        width: 60%;
+        min-height: 445px;
     }
 
     .btn-seta {
