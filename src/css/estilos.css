@@ -57,8 +57,10 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    border: 0;
+    cursor: pointer;
     box-shadow: rgba(71, 71, 106, 0.2) 0px 7px 29px 0px;  
-    transition: background-color 0.2s ease-in-out;    
+    transition: background-color 0.2s ease-in-out;        
 }
 
 .btn-seta.btn-voltar {
@@ -106,7 +108,7 @@ body {
 
 .cartao .informacoes .nome {
     color: white;
-    font-size: 1.4em;
+    font-size: 1.4em;    
 }
 
 .cartao .container-imagem {
@@ -116,6 +118,7 @@ body {
 .cartao .imagem-pokemon {
     padding: 20px;
     max-height: 260px;
+    max-width: 100%;
 }
 
 
@@ -155,5 +158,10 @@ body {
     .btn-seta {
         width: 48px;
         height: 48px;
+    }
+
+    .cartao .informacoes .nome{
+        max-width: 50%;
+        font-size: 1em;
     }
 }
