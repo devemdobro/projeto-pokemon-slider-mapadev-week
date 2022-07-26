@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 30px 0 0;
 }
 
 .cabecalho {
@@ -140,10 +141,6 @@ body {
 }
 
 @media (max-width: 900px) {
-
-    body{
-        padding: 30px 0 0;
-    }
 
     .pokemon-slider {
         justify-content: space-between;

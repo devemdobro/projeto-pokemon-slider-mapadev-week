@@ -13,7 +13,8 @@ function selecionarImagem() {
   imagens[imagemAtual].classList.add("selecionado");
 }
 
-setaAvancar.addEventListener("click", function () {
+setaAvancar.addEventListener("click", function (event) {
+  event.preventDefault();
   if (imagemAtual !== imagens.length - 1) {
     imagemAtual++;
   }
@@ -22,7 +23,8 @@ setaAvancar.addEventListener("click", function () {
   selecionarImagem();
 });
 
-setaVoltar.addEventListener("click", function () {
+setaVoltar.addEventListener("click", function (event) {
+  event.preventDefault();
   if (imagemAtual !== 0) {
     imagemAtual--;
   }
