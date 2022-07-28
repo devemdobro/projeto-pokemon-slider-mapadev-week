@@ -34,7 +34,7 @@ body {
 .cartao {
   max-width: 310px;
   display: none;
-  min-height: 490px;
+  min-height: 500px;
   padding: 12px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
