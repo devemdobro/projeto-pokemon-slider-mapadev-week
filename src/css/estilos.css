@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .cabecalho .titulo {
@@ -33,6 +33,7 @@ body {
 
 .cartao {
   max-width: 310px;
+  min-height: 500px;
   padding: 12px;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
   border-radius: 10px;
