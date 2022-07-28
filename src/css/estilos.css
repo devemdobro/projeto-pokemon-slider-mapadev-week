@@ -120,13 +120,13 @@ body {
   background-color: #333333;
   font-size: 15px;
   color: white;
-  padding: 10px;
+  padding: 12px;
 }
 
 .cartao .descricao .texto {
   font-size: 14px;
-  padding: 10px;
+  padding: 12px;
   text-align: justify;
-  max-height: 165px;
+  max-height: 155px;
   overflow-y: auto;
 }
