@@ -37,26 +37,6 @@ body {
   position: relative;
 }
 
-.cartao {
-  opacity: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-
-  position: absolute;
-  
-  padding: 12px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 10px;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.cartao.selecionado {
-  opacity: 1;
-  z-index: 1;
-}
-
 .btn-seta {
   background-color: white;
   width: 70px;
@@ -68,7 +48,6 @@ body {
   border: 0;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -78,6 +57,24 @@ body {
 
 .btn-seta:hover {
   background-color: #8351fe;
+}
+
+.cartao {
+  opacity: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  padding: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cartao.selecionado {
+  opacity: 1;
+  z-index: 1;
 }
 
 .fundo-1 {
@@ -141,7 +138,6 @@ body {
   font-size: 14px;
   padding: 12px;
   text-align: justify;
-
   max-height: 115px;
   overflow-y: auto;
 }
