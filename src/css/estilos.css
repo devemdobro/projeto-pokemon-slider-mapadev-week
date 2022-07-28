@@ -27,8 +27,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px;
   margin: 60px 0;
+  gap: 80px;
 }
 
 .cartao {
@@ -64,12 +64,6 @@ body {
 
 .btn-seta:hover {
   background-color: #8351fe;
-}
-
-.lista-pokemons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .fundo-1 {
