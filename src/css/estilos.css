@@ -106,7 +106,7 @@ body {
 
 .cartao .imagem-pokemon {
   padding: 20px;
-  max-height: 220px;
+  max-height: 280px;
   max-width: 100%;
 }
 
@@ -127,6 +127,6 @@ body {
   font-size: 14px;
   padding: 12px;
   text-align: justify;
-  max-height: 155px;
+  max-height: 115px;
   overflow-y: auto;
 }
