@@ -32,7 +32,7 @@ body {
 
 .cartao {
   max-width: 310px;
-  padding: 15px;
+  padding: 12px;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
   border-radius: 10px;
   display: none;
@@ -87,7 +87,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 8px 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -123,15 +123,15 @@ body {
 .cartao .descricao .titulo {
   background-color: #333333;
   color: white;
-  padding: 12px;
-  font-size: 17px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .cartao .descricao .texto {
   font-size: 14px;
-  padding: 12px;
+  padding: 10px;
   text-align: justify;
-  max-height: 150px;
+  max-height: 165px;
   overflow-y: auto;
 }
 
