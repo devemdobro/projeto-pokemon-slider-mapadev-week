@@ -8,8 +8,8 @@ function esconderCartaoSelecionado() {
   cartaoSelecionado.classList.remove("selecionado");
 }
 
-function mostrarCartao(indiceCartaoPraMostrar) {
-  cartoes[indiceCartaoPraMostrar].classList.add("selecionado");
+function mostrarCartao(indiceCartao) {
+  cartoes[indiceCartao].classList.add("selecionado");
 }
 
 btnAvancar.addEventListener("click", function () {
